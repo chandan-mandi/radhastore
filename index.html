@@ -19,8 +19,8 @@
 </head>
 
 <body>
-  <header></header>
-  <main class="main container">
+  <header class="container">
+    <!-- Search Box  -->
     <nav class="navbar navbar-light justify-content-between myNav">
       <a class="navbar-brand">Radha Store</a>
       <form class="form-inline d-flex search-container">
@@ -29,31 +29,12 @@
         autocomplete="off" id="search-btn" onclick="loadProducts()"><i class="fas fa-search"></i></button>
       </form>
     </nav>
-    <!-- <div class="">
-      <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button>
-      </div>
-    </div> -->
-    
+  </header>
+  <!-- main section  -->
+  <main class="main container">
     <div class="row">
       <div class="col-md-9 col-lg-9">
         <div id="all-products" class="row row-cols-1 row-cols-md-4 g-1">
-          <!-- <div class="col-md-4">
-            <div class="card h-100">
-              <img src="img/shirt.jp" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
