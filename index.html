@@ -21,20 +21,20 @@
 <body>
   <header class="container">
     <!-- Search Box  -->
-    <nav class="navbar navbar-light justify-content-between myNav">
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-between myNav">
       <a class="navbar-brand">Radha Store</a>
       <form class="form-inline d-flex search-container">
         <input class="form-control mr-sm-2 search-field" id="input-field" type="search" placeholder="Search..." aria-label="Search">
-        <button class="btn btn-success my-2 my-sm-0 search-button" data-toggle="button" aria-pressed="false"
+        <button class="btn btn-success my-sm-0 search-button" data-toggle="button" aria-pressed="false"
         autocomplete="off" id="search-btn" onclick="loadProducts()"><i class="fas fa-search"></i></button>
       </form>
     </nav>
   </header>
   <!-- main section  -->
-  <main class="main container">
+  <main class="main container"> 
     <div class="row">
-      <div class="col-md-9 col-lg-9">
-        <div id="all-products" class="row row-cols-1 row-cols-md-4 g-1">
+      <div class="col-md-9 col-lg-9 col-sm-9">
+        <div id="all-products" class="row row-cols-1 row-cols-md-4 row-cols-sm-12 g-1">
         </div>
       </div>
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">

@@ -114,9 +114,17 @@ body {
   .parces .buy-now-btn:hover, #addToCart-btn:hover {
     background-color: #f5980d;
   }
+  .navbar a.navbar-brand {
+    color: #ff9900;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+  .navbar a.navbar-brand:hover {
+    cursor: pointer;
+    color: #ff5200;
+  }
 @media only screen and (max-width: 768px) {
   #all-products {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
   .cart {
@@ -134,7 +142,18 @@ body {
 }
 @media only screen and (max-width: 468px) {
   #all-products {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .myNav {
+    display: flex;
+  }
+  .search-button {
+    margin: 0 !important;
+  }
+  .search-container {
+    width: 100%;
+  }
+  .navbar .navbar-brand {
+    margin: auto;
   }
 }
