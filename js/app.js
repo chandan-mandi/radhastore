@@ -20,7 +20,7 @@ const showProducts = (products) => {
       <div class="rating-rate">${product.rating.rate} <img src="img/rating.svg" class="rating-img"></div>
       <span class="rating-count">(${product.rating.count})</span>
       </div>
-      <h4>Price: $ ${product.price}</h4>
+      <h4>Price: $${product.price}</h4>
       <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn text-light"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
       <button id="details-btn" class="btn text-light">Details</button></div>
       </div>
